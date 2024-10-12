@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-container" id="scrollContainer">
+        <div class="scroll-item" data-index="0">Item 1</div>
+        <div class="scroll-item" data-index="1">Item 2</div>
+        <div class="scroll-item" data-index="2">Item 3</div>
+        <div class="scroll-item" data-index="3">Item 4</div>
+        <div class="scroll-item" data-index="4">Item 5</div>
+      </div>
+      
+      <div class="navigation-bar" id="navigationBar"></div>
+      
+      
+      <script>
+        const scrollContainer = document.getElementById('scrollContainer');
+const navigationBar = document.getElementById('navigationBar');
+const scrollItems = document.querySelectorAll('.scroll-item');
+
+// Create navigation buttons dynamically
+scrollItems.forEach((item, index) => {
+  const button = document.createElement('button');
+  button.className = 'nav-button';
+  button.innerText = `Item ${index + 1}`;
+  
+  button.addEventListener('click', () => {
+    item.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to clicked item
+  });
+  
+  navigationBar.appendChild(button); // Add button to the navigation bar
+});
+
+// Function to update the visible item count and active button
+function updateVisibleItems() {
+  const containerRect = scrollContainer.getBoundingClientRect();
+  let activeIndex = -1;
+
+  scrollItems.forEach((item, index) => {
+    const itemRect = item.getBoundingClientRect();
+    // Check if the item is within the visible area of the container
+    if (
+      itemRect.top >= containerRect.top &&
+      itemRect.bottom <= containerRect.bottom
+    ) {
+      activeIndex = index; // Update active index if the item is visible
+    }
+  });
+
+  // Highlight the active button and reset others
+  const buttons = document.querySelectorAll('.nav-button');
+  buttons.forEach((button, index) => {
+    if (index === activeIndex) {
+      button.style.backgroundColor = '#0056b3'; // Active color
+    } else {
+      button.style.backgroundColor = '#007BFF'; // Default color
+    }
+  });
+}
+
+// Event listener for scroll events
+scrollContainer.addEventListener('scroll', updateVisibleItems);
+
+// Initial update of visible items on page load
+updateVisibleItems();
+
+
+      </script>
+</body>
+</html>
