@@ -139,6 +139,7 @@ img {
     padding: 6px 8px;
     border: 1px solid lightgrey;
     background-color: white;
+    touch-action: manipulation
 }
 
 .accordion-wrapper {
