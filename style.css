@@ -37,7 +37,7 @@ body {
     align-items: center;
     position: sticky;
     top: 0px;
-    gap: 120px;
+    height: 100vh;
 }
 
 .website-body-wrapper {
@@ -53,6 +53,8 @@ body {
     flex-direction: column;
     gap: 16px;
     width: 70%;
+    color: grey;
+        line-height: 18px;
 }
 
 /* Navigation */
@@ -65,7 +67,7 @@ body {
     justify-content: space-between;
     position: sticky;
     top: 0px;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 .navigation-section {
@@ -86,6 +88,14 @@ body {
 
 .slideshow-wrapper {
     width: 100%;
+    max-width: 600px;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .slideshow-container {
@@ -182,7 +192,6 @@ img {
         align-items: center;
         position: sticky;
         top: 0px;
-        gap: 64px;
     }
     .website-body-wrapper {
         flex-direction: column;
