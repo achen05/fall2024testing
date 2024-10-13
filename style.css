@@ -217,6 +217,67 @@ img {
     background-color: #f9f9f9;
 }
 
+        
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100vw; /* Full width */
+            height: 100vh; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(255, 255, 255, 0.2); /* Black w/ opacity */
+            backdrop-filter: blur(10px); /* Blur the background behind the modal */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+
+        }
+        
+        /* Modal Content (image) */
+        .modal-content {
+            display: block;
+            width: auto;
+            height: auto;
+            max-width: 95vw;
+            max-height: 80vh;
+            object-fit: contain;
+            /* border: 1px solid blue; */
+        }
+        
+        /* Caption of modal image (optional) */
+        #caption {
+            text-align: center;
+            color: grey;
+        }
+        
+        /* Add Animation - Zoom in the Modal */
+        /* .modal-content {
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+        
+        @keyframes zoom {
+            from {transform: scale(0)} 
+            to {transform: scale(1)}
+        } */
+        
+        /* The Close Button (using a <p>) */
+            .close {
+            width: auto;
+        }
+        
+        .close:hover,
+        .close:focus {
+        }
+
+
+
 @media (max-width: 800px) {
     .website-wrapper {
         display: flex;
