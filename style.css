@@ -217,7 +217,7 @@ img {
             height: 100vh; /* Full height */
             overflow: auto; /* Enable scroll if needed */
             background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(255, 255, 255, 0.2); /* Black w/ opacity */
+            background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
             backdrop-filter: blur(10px); /* Blur the background behind the modal */
     -webkit-backdrop-filter: blur(10px); /* For Safari */
             flex-direction: column;
@@ -235,13 +235,15 @@ img {
             max-width: 95vw;
             max-height: 80vh;
             object-fit: contain;
+            border: 1px solid grey;
             /* border: 1px solid blue; */
         }
         
         /* Caption of modal image (optional) */
         #caption {
             text-align: center;
-            color: grey;
+            color: lightgrey;
+            max-width: 300px;
         }
         
         /* Add Animation - Zoom in the Modal */
@@ -258,6 +260,8 @@ img {
         /* The Close Button (using a <p>) */
             .close {
             width: auto;
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
         }
         
         .close:hover,
