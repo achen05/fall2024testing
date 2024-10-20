@@ -205,6 +205,12 @@ img {
     border: 1px solid lightgrey;
 }
 
+.image-collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
 .slide-button {
     display: block;
     width: 100%;
