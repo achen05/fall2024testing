@@ -202,6 +202,7 @@ body {
 img {
     width: 100%;
     object-fit: cover;
+    border: 1px solid lightgrey;
 }
 
 .slide-button {
@@ -280,6 +281,8 @@ img {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Modal */
