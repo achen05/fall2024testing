@@ -66,6 +66,7 @@ body {
     height: 100dvh;
     justify-content: center;
     align-items: center;
+    padding-top: 48px;
 }
 
 .website-project-wrapper {
@@ -136,6 +137,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 48px;
 
 }
 
