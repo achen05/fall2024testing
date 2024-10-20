@@ -362,7 +362,7 @@ img {
     .website-wrapper {
         display: flex;
         flex-direction: column;
-        margin: 0px 32px 0px 32px;
+        margin: 0px 28px;
         align-items: center;
     }
     .website-body-wrapper {
