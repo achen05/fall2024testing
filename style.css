@@ -52,6 +52,7 @@ body {
     text-decoration: none;
     color: black;
     border-radius: 4px;
+    font-size: 14px;
 }
 
 .label {
@@ -69,11 +70,10 @@ body {
 .information-body-wrapper {
     display: flex;
     gap: 32px;
-    max-width: 1200px;
+    max-width: 1000px;
     height: 100dvh;
     justify-content: center;
     align-items: center;
-    padding-top: 48px;
 }
 
 .website-project-wrapper {
@@ -130,6 +130,7 @@ body {
 
 .navigation-button {
     width: auto;
+    font-size: 14px;
 }
 
 /* Slides */
@@ -159,7 +160,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 8px;
+    gap: 12px;
     /* border: 1px solid blue; */
     
     /* border: 3px solid black; */
