@@ -19,4 +19,8 @@ function showSlides() {
     }
 
     slides[slideIndex].style.display = "flex"; // Show current slide
+
+    // Update slide number
+    const slideNumberElement = document.getElementById("slide-number");
+    slideNumberElement.innerHTML = `${slideIndex + 1} / ${slides.length}`;
 }
