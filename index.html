@@ -13,47 +13,37 @@
             <div class="slideshow-wrapper">
                 <div class="slideshow-container">
                     <div class="slide">
-                        
                         <img src="assets/projects/ac-1/1.jpg" alt="Documentation tablet for AC-1" class="slide-image modal-trigger">
                         <div class="slide-information">
-                            <p>1</p>
-                            <div class="slide-caption">
-                                <p>AC-1</p>
-                            <p>Font Design</p>
-                            </div>
+                            <p>AC-1</p>
+                            <p class="slide-project-type">Font Design</p>
                         </div>
                         <a href="project-template.html" class="button slide-button">View Full Project</a>
                     </div>
+
                     <div class="slide">
                         <img src="assets/projects/sourceMaterial/mapcover.jpg" alt="Geological Anomalies Map for Issue 05: Ways of Mapping" class="modal-trigger">
                         <div class="slide-information">
-                            <p>2</p>
-                            <div class="slide-caption">
                                 <p>Source Material</p>
-                            <p>Publication</p>
-                            </div>
+                            <p class="slide-project-type">Publication</p>
                         </div>
                         <a href="#" class="button slide-button">View Full Project</a>
                     </div>
+
                     <div class="slide">
                         <img src="assets/projects/sfpc/cd-backside.jpg" alt="CD case, backside, for the School for Poetic Computation" class="modal-trigger">
                         <div class="slide-information">
-                            <p>3</p>
-                            <div class="slide-caption">
                                 <p>School for Poetic Computation</p>
-                            <p>Visual Identity</p>
-                            </div>
+                            <p class="slide-project-type">Visual Identity</p>
                         </div>
                         <a href="#" class="button slide-button">View Full Project</a>
                     </div>
+                    
                     <div class="slide">
                         <img src="assets/projects/sfpc/schedule-open.jpg" alt="Schedule for School for Poetic Computation" class="modal-trigger">
                         <div class="slide-information">
-                            <p>4</p>
-                            <div class="slide-caption">
                                 <p>School for Poetic Computation</p>
-                            <p>Visual Identity</p>
-                            </div>
+                            <p class="slide-project-type">Visual Identity</p>
                         </div>
                         <a href="#" class="button slide-button">View Full Project</a>
                     </div>
@@ -63,8 +53,9 @@
     
     
                     <div class="slideshow-button-container">
-                        <a class="button prev" onclick="changeSlide(-1)">Previous</a>
-                        <a class="button next" onclick="changeSlide(1)">Next</a>
+                        <a class="button prev" onclick="changeSlide(-1)"><<a>
+                        <div id="slide-number" class="slide-number"></div>
+                        <a class="button next" onclick="changeSlide(1)">></a>
                     </div>
                 </div>
             </div>
