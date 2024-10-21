@@ -81,6 +81,11 @@ body {
     font-size: 14px;
 }
 
+.disabled {
+    background-color: lightgrey;
+    color: grey;
+}
+
 .button-wrapper {
     display: flex;
     flex-direction: column;
