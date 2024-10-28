@@ -380,7 +380,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    border: 1px solid lightgrey;
+    border: 1px solid rgba(0, 0, 0, .1);
     padding: 10px;
 }
 
