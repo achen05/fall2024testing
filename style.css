@@ -95,7 +95,7 @@ body {
 .label {
     color: grey;
     font-size: 14px;
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; */
     padding: 4px 0px;
 }
 
@@ -134,7 +134,7 @@ body {
     justify-content: space-between;
     /* border: 3px solid blue; */
     box-sizing: border-box;
-    padding: 0px 20px;
+    padding: 0px 32px;
 }
 
 .navigation-section {
@@ -311,6 +311,12 @@ img {
     gap: 4px;
 }
 
+#projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
 .project-list-item-container {
     display: flex;
     /* border: 1px solid blue; */
@@ -461,7 +467,7 @@ img {
     .website-wrapper {
         display: flex;
         flex-direction: column;
-        margin: 0px 28px;
+        margin: 0px 20px;
         align-items: center;
     }
     .website-body-wrapper {
