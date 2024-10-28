@@ -21,7 +21,7 @@ function generateAbbreviated(data) {
 
         const projectIndex = document.createElement("p");
         projectIndex.classList.add("project-index");
-        projectIndex.textContent = index;
+        projectIndex.textContent = index+1;
         projectDiv.appendChild(projectIndex);
 
         //information
@@ -103,7 +103,7 @@ function generateProjectsHTML(data) {
       const link = document.createElement("a");
       link.classList.add("button");
       link.href = project.link;
-      link.textContent = "View Project";
+      link.textContent = "View Full Project";
       projectDiv.appendChild(link);
 
       // Append project to main container

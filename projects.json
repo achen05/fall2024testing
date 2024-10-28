@@ -1,7 +1,7 @@
 [
     {
         "title": "AC-1",
-        "type": "Font Design",
+        "type": "Font",
         "description": "A humble typeface designed around ideas about respect, modesty, and authorship.",
         "link": "ac_1.html",
         "images": [
@@ -21,9 +21,9 @@
     },
     {
         "title": "School for Poetic Computation",
-        "type": "Visual Identity Concept",
+        "type": "Identity",
         "description": "An identity that is itself an act of poetic computation.",
-        "link": "index.html",
+        "link": "sfpc_visualidentity.html",
         "images": [
             {
                 "src": "assets/projects/sfpc/postcards.jpg",
@@ -40,21 +40,21 @@
         ]
     },
     {
-        "title": "School for Poetic Computation",
-        "type": "Visual Identity Concept",
-        "description": "An identity that is itself an act of poetic computation.",
+        "title": "Comparator Mirror",
+        "type": "Object",
+        "description": "Reinterpreting a painting tool from 18th century optics.",
         "link": "index.html",
         "images": [
             {
-                "src": "assets/projects/sfpc/postcards.jpg",
+                "src": "assets/projects/comparator-mirror/main.jpg",
                 "alt": "Caption"
             },
             {
-                "src": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "src": "assets/projects/comparator-mirror/open.jpg",
                 "alt": "Caption"
             },
             {
-                "src": "assets/projects/sfpc/schedule.jpg",
+                "src": "assets/projects/comparator-mirror/cover.jpg",
                 "alt": "Caption"
             }
         ]
