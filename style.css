@@ -52,7 +52,6 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 32px;
     height: fit-content;
     padding: 120px 0px;
     /* border: 1px solid blue; */
@@ -96,7 +95,7 @@ body {
     color: grey;
     font-size: 14px;
     /* border-bottom: 1px solid lightgrey; */
-    padding: 4px 0px;
+    padding: 4px 0px 10px 0px;
 }
 
 
@@ -300,9 +299,10 @@ img {
 /* Work  */
 
 .abbreviated-list-column {
-    width: 60%;
+    width: 100%;
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    /* border: 1px solid black; */
 }
 
 #abbreviated-projects-container {
@@ -382,6 +382,15 @@ img {
     gap: 8px;
     border: 1px solid lightgrey;
     padding: 10px;
+}
+
+.project-type {
+    color: grey;
+    text-align: right;
+}
+
+.project-description {
+    text-align: center;
 }
 
 /* Modal */
@@ -494,7 +503,6 @@ img {
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 32px;
         height: fit-content;
         /* border: 1px solid blue; */
         padding: 0px;
