@@ -9,6 +9,7 @@ function renderMediaSlideshow(media) {
         .join('');
 
     return `
+            <div class="media-slideshow-container">
             <img class="main-image modal-trigger" src="${media[0].url}" alt="${media[0].alt || 'Main Image'}">
             <div class="media-slideshow-buttons-container">
             <a class="button slideshow-button prev-btn"><</a>
@@ -16,6 +17,7 @@ function renderMediaSlideshow(media) {
                 <span id="slideshow-current">1</span> / <span id="slideshow-total">${media.length}</span>
             </div>
             <a class="button slideshow-button next-btn">></a>
+            </div>
             </div>
             <div class="thumbnail-grid">
                 ${thumbnails}
@@ -63,6 +65,7 @@ function renderStoryMedia(item) {
                     <source src="${item.url}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+                <p>${item.caption}</p>
             </div>
         `;
     } else if (item.type === 'text') {

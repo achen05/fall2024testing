@@ -106,6 +106,51 @@
             },
             {
                 "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads1.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads1.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
                 "url": "assets/projects/sfpc/tickets.jpg",
                 "alt": "Documentation tablet for AC-1"
             }
@@ -119,7 +164,8 @@
             {
                 "type": "video",
                 "url": "assets/projects/sfpc/Aldon_Chen_Final.mp4",
-                "poster": "assets/projects/sfpc/ballads-cd-back.jpg"
+                "poster": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "caption": "Introduction to AutoSpell, a generative typography system that synthesizes typography and cellular automata."
             },
             {
                 "type": "image",

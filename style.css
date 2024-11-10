@@ -220,7 +220,7 @@ body {
 img {
     width: 100%;
     object-fit: cover;
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
 }
 
 .image-collection {
@@ -448,7 +448,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 600px;
+    max-width: 1000px;
     gap: 40px;
     margin-top: 200px;
 
@@ -467,13 +467,26 @@ img {
     color: grey;
 }
 
+
 #media-container {
     width: 100%;
     position: relative;
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.media-slideshow-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
 }
 
 .main-image {
@@ -481,21 +494,26 @@ img {
     aspect-ratio: 1 / 1;
     object-fit: contain;
     padding: 10px;
+    border: 1px solid lightgrey;
 }
 
 .thumbnail-grid {
-    width: 100%;
-    flex-wrap: wrap;
     display: flex;
-    gap: 12px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    gap: 16px;
+    justify-items: center;
+    align-items: center;
     justify-content: center;
-    /* border: 1px solid black; */
 }
 
 .thumbnail {
-    width: 64px;
-    height: auto;
+    width: 80px;
+    /* object-fit: cover;
+    aspect-ratio: 1 /1; */
     cursor: pointer;
+    border: 1px solid lightgrey;
 }
 
 .media-slideshow-buttons-container {
@@ -512,6 +530,10 @@ img {
     user-select: none;
     touch-action: manipulation;
     padding: 6px 20px;
+}
+
+#story-container {
+    max-width: 500px;
 }
 
 
@@ -531,14 +553,6 @@ img {
     align-items: center;
     gap: 12px;
     color: grey;
-}
-
-.media-slideshow-container {
-    position: relative;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 12px;
 }
 
 video {
@@ -567,12 +581,6 @@ video {
 
     .information-column {
         width: 100%;
-    }
-
-    img {
-        width: var(--image-size);
-        height: var(--image-size);
-        object-fit: cover;
     }
 
     .website-project-wrapper {
