@@ -59,7 +59,7 @@ function renderStoryMedia(item) {
     if (item.type === 'video') {
         return `
             <div class="storyMedia-container">
-                <video controls poster="${item.poster}">
+                <video controls poster="${item.poster}" loading="lazy" preload="metadata" crossorigin="anonymous">
                     <source src="${item.url}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>

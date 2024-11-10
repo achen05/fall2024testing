@@ -468,7 +468,7 @@ img {
 }
 
 #media-container {
-    width: 90%;
+    width: 100%;
     position: relative;
     text-align: center;
     display: grid;
@@ -541,6 +541,9 @@ img {
     gap: 12px;
 }
 
+video {
+    width: 100%;
+}
 
 
 

@@ -66,7 +66,7 @@
         "media": [
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/postcards.jpg",
+                "url": "assets/projects/sfpc/1.jpg",
                 "alt": "ASCII postcards"
             },
             {
@@ -76,12 +76,12 @@
             },
             {
                 "type": "image",
-                "url": "assets/projects/ac-1/1.jpg",
+                "url": "assets/projects/sfpc/schedule.jpg",
                 "alt": "Documentation tablet for AC-1"
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/postcards.jpg",
+                "url": "assets/projects/sfpc/letterhead.jpg",
                 "alt": "ASCII postcards"
             },
             {
@@ -101,12 +101,12 @@
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "url": "assets/projects/sfpc/ballads1.jpg",
                 "alt": "Back of CD case for hypothetical music project, Ballads"
             },
             {
                 "type": "image",
-                "url": "assets/projects/ac-1/1.jpg",
+                "url": "assets/projects/sfpc/tickets.jpg",
                 "alt": "Documentation tablet for AC-1"
             }
 
@@ -115,6 +115,11 @@
             {
                 "type": "text",
                 "content": "A visual identity concept for the School for Poetic Computation, an artist run school in New York that focuses on the intersection of art, code, hardware, and critical theory. By recontextualizing forms of code, the visual identity itself becomes a practice of poetic computation."
+            },
+            {
+                "type": "video",
+                "url": "assets/projects/sfpc/Aldon_Chen_Final.mp4",
+                "poster": "assets/projects/sfpc/ballads-cd-back.jpg"
             },
             {
                 "type": "image",
