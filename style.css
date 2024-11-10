@@ -445,11 +445,13 @@ img {
 
 .case-study-container {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 600px;
     gap: 40px;
     margin-top: 200px;
+
 }
 
 .paratext-container {
@@ -465,9 +467,18 @@ img {
     color: grey;
 }
 
+#media-container {
+    width: 90%;
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
 .main-image {
     width: 100%;
-    height: 500px;
+    aspect-ratio: 1 / 1;
     object-fit: contain;
     padding: 10px;
 }
@@ -476,13 +487,13 @@ img {
     width: 100%;
     flex-wrap: wrap;
     display: flex;
-    gap: 10px;
+    gap: 12px;
     justify-content: center;
     /* border: 1px solid black; */
 }
 
 .thumbnail {
-    width: 80px;
+    width: 64px;
     height: auto;
     cursor: pointer;
 }
@@ -490,6 +501,8 @@ img {
 .media-slideshow-buttons-container {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    align-items: center;
 }
 
 .slideshow-button {

@@ -9,16 +9,17 @@ function renderMediaSlideshow(media) {
         .join('');
 
     return `
-        <div class="media-slideshow-container">
             <img class="main-image modal-trigger" src="${media[0].url}" alt="${media[0].alt || 'Main Image'}">
             <div class="media-slideshow-buttons-container">
             <a class="button slideshow-button prev-btn"><</a>
+            <div class="slideshow-counter">
+                <span id="slideshow-current">1</span> / <span id="slideshow-total">${media.length}</span>
+            </div>
             <a class="button slideshow-button next-btn">></a>
             </div>
             <div class="thumbnail-grid">
                 ${thumbnails}
             </div>
-        </div>
     `;
 }
 
@@ -27,6 +28,8 @@ function setupSlideshow(media) {
     const thumbnails = document.querySelectorAll('.thumbnail');
     const prevButton = document.querySelector('.prev-btn');
     const nextButton = document.querySelector('.next-btn');
+    const currentCounter = document.getElementById('slideshow-current');
+    const totalCounter = document.getElementById('slideshow-total');
     
     let currentIndex = 0;
 
@@ -34,6 +37,7 @@ function setupSlideshow(media) {
         currentIndex = (index + media.length) % media.length; // Loop index
         mainImage.src = media[currentIndex].url;
         mainImage.alt = media[currentIndex].alt || 'Main Image';
+        currentCounter.textContent = currentIndex + 1; // Update counter (1-based index)
     }
 
     prevButton.addEventListener('click', () => updateSlideshow(currentIndex - 1));
