@@ -630,4 +630,10 @@ video {
         /* border: 1px solid black; */
     }
 
+    /* Case Study */
+    
+    .thumbnail {
+        width: 15%;
+    }
+
 }
