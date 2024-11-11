@@ -3,7 +3,22 @@
         "title": "AC-1",
         "type": "Typeface",
         "description": "A humble typeface designed around ideas about respect, modesty, and authorship.",
-        "link": "ac_1.html",
+        "link": "case-study.html?project=ac-1",
+        "heroMedia": [
+            {
+                "type": "image",
+                "url": "assets/projects/ac-1/1.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/ac-1/4.jpg"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/ac-1/6.jpg"
+            }
+        ],
         "media": [
             {
                 "type": "image",
@@ -62,7 +77,22 @@
         "title": "School for Poetic Computation",
         "type": "Identity",
         "description": "An identity that is itself an act of poetic computation.",
-        "link": "ac_1.html",
+        "link": "case-study.html?project=sfpc-identity",
+        "heroMedia": [
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/2.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/schedule.jpg"
+            }
+        ],
         "media": [
             {
                 "type": "image",
@@ -101,8 +131,178 @@
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads1.jpg",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
                 "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/tickets.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ],
+        "story": [
+            {
+                "type": "text",
+                "content": "A visual identity concept for the School for Poetic Computation, an artist run school in New York that focuses on the intersection of art, code, hardware, and critical theory. By recontextualizing forms of code, the visual identity itself becomes a practice of poetic computation."
+            },
+            {
+                "type": "video",
+                "url": "assets/projects/sfpc/Aldon_Chen_Final.mp4",
+                "poster": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "caption": "Introduction to AutoSpell, a generative typography system that synthesizes typography and cellular automata."
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/postcards.jpg",
+                "alt": "ASCII postcards",
+                "caption": "Text-based code paradigms get reinterpreted as ASCII art."
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/ac-1/1.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/postcards.jpg",
+                "alt": "ASCII postcards"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/ac-1/1.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ]
+    },
+    "comparator-mirror": {
+        "title": "Comparator Mirror",
+        "type": "Object",
+        "description": "Reinterpreting a painting tool for 18th century optics.",
+        "link": "case-study.html?project=comparator-mirror",
+        "heroMedia": [
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/main.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/open.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/tray.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/main.jpg",
+                "alt": "ASCII postcards"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/cover.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/open.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/tray.jpg",
+                "alt": "ASCII postcards"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/sides.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/disagram.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            }
+
+        ],
+        "story": [
+            {
+                "type": "text",
+                "content": "A painting tool, based on the camera lucida, a painting tool invented during the rise of 18th century optics."
+            },
+            {
+                "type": "video",
+                "url": "assets/projects/comparator-mirror/Comparator Mirror Video.mp4",
+                "poster": "assets/projects/comparator-mirror/open.jpg",
+                "caption": "Introduction to AutoSpell, a generative typography system that synthesizes typography and cellular automata."
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/progress.jpg",
+                "alt": "ASCII postcards",
+                "caption": "Text-based code paradigms get reinterpreted as ASCII art."
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/prototype.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/comparator-mirror/disagram.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ]
+    },
+    "source-material": {
+        "title": "Source Material",
+        "type": "Publication",
+        "description": "A student founded and run publication for and by students.",
+        "link": "case-study.html?project=sfpc-identity",
+        "heroMedia": [
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/1.jpg",
+                "alt": "ASCII postcards"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/schedule.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/letterhead.jpg",
+                "alt": "ASCII postcards"
             },
             {
                 "type": "image",
@@ -121,32 +321,7 @@
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads1.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
                 "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads1.jpg",
                 "alt": "Back of CD case for hypothetical music project, Ballads"
             },
             {
