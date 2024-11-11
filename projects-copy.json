@@ -76,7 +76,7 @@
     "sfpc-identity": {
         "title": "School for Poetic Computation",
         "type": "Identity",
-        "description": "An identity that is itself an act of poetic computation.",
+        "description": "Giving form to alternative frameworks of computer programming with an identity that is itself a practice of subversive code.",
         "link": "case-study.html?project=sfpc-identity",
         "heroMedia": [
             {
@@ -189,7 +189,7 @@
     "comparator-mirror": {
         "title": "Comparator Mirror",
         "type": "Object",
-        "description": "Reinterpreting a painting tool for 18th century optics.",
+        "description": "Reinterpreting a painting tool from 18th century optical sciences.",
         "link": "case-study.html?project=comparator-mirror",
         "heroMedia": [
             {
@@ -274,59 +274,99 @@
     "source-material": {
         "title": "Source Material",
         "type": "Publication",
-        "description": "A student founded and run publication for and by students.",
-        "link": "case-study.html?project=sfpc-identity",
+        "description": "A publication for and by students.",
+        "link": "case-study.html?project=source-material",
         "heroMedia": [
             {
                 "type": "image",
                 "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+            
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ],
+        "story": [
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sourceMaterial/mapcover.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ]
+    },
+    "writing-under-from-and-beyond": {
+        "title": "Writing Under, From, and Beyond",
+        "type": "Print",
+        "description": "Printed matter designed for the community within Chris Kraus' courses at ArtCenter.",
+        "link": "case-study.html?project=writing-under-from-and-beyond",
+        "heroMedia": [
+            {
+                "type": "image",
+                "url": "assets/projects/writing-under-from-and-beyond/investigations.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/writing-under-from-and-beyond/portrait.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/writing-under-from-and-beyond/observations.jpg",
                 "alt": "Documentation tablet for AC-1"
             }
         ],
         "media": [
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/1.jpg",
-                "alt": "ASCII postcards"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/schedule.jpg",
+                "url": "assets/projects/writing-under-from-and-beyond/portrait.jpg",
                 "alt": "Documentation tablet for AC-1"
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/letterhead.jpg",
-                "alt": "ASCII postcards"
+                "url": "assets/projects/writing-under-from-and-beyond/investigations.jpg",
+                "alt": "Documentation tablet for AC-1"
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/tickets.jpg",
+                "url": "assets/projects/writing-under-from-and-beyond/observations.jpg",
                 "alt": "Documentation tablet for AC-1"
             }
 
@@ -334,7 +374,7 @@
         "story": [
             {
                 "type": "text",
-                "content": "A visual identity concept for the School for Poetic Computation, an artist run school in New York that focuses on the intersection of art, code, hardware, and critical theory. By recontextualizing forms of code, the visual identity itself becomes a practice of poetic computation."
+                "content": "A series of printed matter designed while as a student of and a Teaching Assistant to Chris Kraus, author of <i>I Love Dick</i>. Designs were inspired by the class' unique pedagogy and the journalistic approach to personal writing that was taught by Kraus."
             },
             {
                 "type": "video",
@@ -371,6 +411,190 @@
             {
                 "type": "image",
                 "url": "assets/projects/ac-1/1.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ]
+    },
+    "yin": {
+        "title": "Yin",
+        "type": "Sculpture",
+        "description": "A sculptural object made of clear, cast acrylic.",
+        "link": "case-study.html?project=yin",
+        "heroMedia": [
+            {
+                "type": "image",
+                "url": "assets/projects/yin/front.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/quarter.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/detail.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "assets/projects/yin/front.jpg",
+                "alt": "ASCII postcards"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/quarter.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/side.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/detail.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ],
+        "story": [
+            {
+                "type": "text",
+                "content": "A visual identity concept for the School for Poetic Computation, an artist run school in New York that focuses on the intersection of art, code, hardware, and critical theory. By recontextualizing forms of code, the visual identity itself becomes a practice of poetic computation."
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/process.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/progress.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ]
+    },
+    "to-gary-kornblau": {
+        "title": "To Gary Kornblau, From Aldon Chen",
+        "type": "Writing",
+        "description": "Talking back to a professor for assigning homework over break.",
+        "link": "case-study.html?project=to-gary-kornblau",
+        "heroMedia": [
+            {
+                "type": "image",
+                "url": "assets/projects/to-gary-kornblau/ig2.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/to-gary-kornblau/ig3.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/to-gary-kornblau/ig4.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "assets/projects/to-gary-kornblau/ig2.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/to-gary-kornblau/ig3.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/to-gary-kornblau/ig4.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/to-gary-kornblau/ig5.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ],
+        "story": [
+            {
+                "type": "text",
+                "content": "Prompted by an assignment based on Bell Hook's idea of 'talking back', I decided to 'talk back' to my professor, Gary Kornblau, about how very seriously egregious it was that he decided to assign this work to be due the first day of class."
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/process.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/progress.jpg",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ]
+    },
+    "object-lessons": {
+        "title": "Object Lessons",
+        "type": "Zine",
+        "description": "Examining the framework of objecthood in society and culture.",
+        "link": "case-study.html?project=object-lessons",
+        "heroMedia": [
+            {
+                "type": "image",
+                "url": "assets/projects/object-lessons/1.png",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/object-lessons/4.png",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/object-lessons/5.png",
+                "alt": "Documentation tablet for AC-1"
+            }
+        ],
+        "media": [
+            {
+                "type": "image",
+                "url": "assets/projects/object-lessons/1.png",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/object-lessons/4.png",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/object-lessons/5.png",
+                "alt": "Documentation tablet for AC-1"
+            }
+
+        ],
+        "story": [
+            {
+                "type": "text",
+                "content": "In collaboration with designer, Nate Turley"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/process.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/yin/progress.jpg",
                 "alt": "Documentation tablet for AC-1"
             }
 
