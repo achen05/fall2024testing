@@ -582,6 +582,10 @@ video {
         gap: 64px;
     }
 
+    .split-column-wrapper {
+        flex-direction: column;
+    }
+
     .information-column {
         width: 100%;
     }
