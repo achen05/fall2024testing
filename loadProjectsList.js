@@ -1,114 +1,226 @@
 async function loadAndDisplayProjects() {
-    try {
-      const response = await fetch("projects.json");
-      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-      const projectsData = await response.json();
-      
-      generateAbbreviated(projectsData);
-      generateProjectsHTML(projectsData);
-    } catch (error) {
-      console.error("Failed to fetch projects data:", error);
-    }
+  try {
+    const response = await fetch("projects-copy.json");
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    const projectsData = await response.json();
+    
+    generateAbbreviated(projectsData);
+    generateProjectsHTML(projectsData);
+  } catch (error) {
+    console.error("Failed to fetch projects data:", error);
   }
+}
 
 function generateAbbreviated(data) {
-    const projectsContainer = document.getElementById("abbreviated-projects-container");
+  const projectsContainer = document.getElementById("abbreviated-projects-container");
+  
+  // Convert object to array of [key, value] pairs for iteration with index
+  Object.entries(data).forEach(([projectKey, project], index) => {
+    // Project container
+    const projectDiv = document.createElement("div");
+    projectDiv.classList.add("project-abbreviated-container");
 
-    data.forEach((project, index) => {
-        //project container
-        const projectDiv = document.createElement("div");
-        projectDiv.classList.add("project-abbreviated-container");
+    const projectIndex = document.createElement("p");
+    projectIndex.classList.add("project-index");
+    projectIndex.textContent = index + 1;
+    projectDiv.appendChild(projectIndex);
 
-        const projectIndex = document.createElement("p");
-        projectIndex.classList.add("project-index");
-        projectIndex.textContent = index+1;
-        projectDiv.appendChild(projectIndex);
+    // Information
+    const projectInformation = document.createElement("a");
+    projectInformation.classList.add("abbreviated-item", "button");
+    projectInformation.href = project.link;
+    projectDiv.appendChild(projectInformation);
 
-        //information
-        const projectInformation = document.createElement("a");
-        projectInformation.classList.add("abbreviated-item");
-        projectInformation.classList.add("button");
-        projectInformation.href = project.link;
-        projectDiv.appendChild(projectInformation);
+    // Title
+    const title = document.createElement("p");
+    title.classList.add("project-title");
+    title.textContent = project.title;
+    projectInformation.appendChild(title);
 
-        //title
-        const title = document.createElement("p");
-        title.classList.add("project-title");
-        title.textContent = project.title;
-        projectInformation.appendChild(title);
-
-        //type
-        const type = document.createElement("p");
-        type.classList.add("project-type");
-        type.textContent = project.type;
-        projectInformation.appendChild(type);
-        
-        // Append project to main container
-        projectsContainer.appendChild(projectDiv);
-        
-    });
-
+    // Type
+    const type = document.createElement("p");
+    type.classList.add("project-type");
+    type.textContent = project.type;
+    projectInformation.appendChild(type);
     
-
+    // Append project to main container
+    projectsContainer.appendChild(projectDiv);
+  });
 }
 
 function generateProjectsHTML(data) {
-    const projectsContainer = document.getElementById("projects-container");
+  const projectsContainer = document.getElementById("projects-container");
 
-    data.forEach(project => {
-      // Create project container
-      const projectDiv = document.createElement("div");
-      projectDiv.classList.add("project-item-container");
+  Object.entries(data).forEach(([projectKey, project]) => {
+    // Create project container
+    const projectDiv = document.createElement("div");
+    projectDiv.classList.add("project-item-container");
 
-      // Images
-      const imagesDiv = document.createElement("div");
-      imagesDiv.classList.add("project-item-gallery");
-      project.images.forEach(image => {
+    // Images
+    const imagesDiv = document.createElement("div");
+    imagesDiv.classList.add("project-item-gallery");
+    
+    // Only include image type media
+    project.heroMedia
+      .filter(item => item.type === "image")
+      .forEach(image => {
         const img = document.createElement("img");
-        img.classList.add("project-gallery-images");
-        img.classList.add("modal-trigger");
-        img.src = image.src;
-        img.alt = image.alt;
+        img.classList.add("project-gallery-images", "modal-trigger");
+        img.src = image.url;
+        img.alt = image.alt || '';
         imagesDiv.appendChild(img);
       });
-      projectDiv.appendChild(imagesDiv);
+    projectDiv.appendChild(imagesDiv);
 
-      //Information
+    // Information
+    const projectInformation = document.createElement("div");
+    projectInformation.classList.add("project-item-information");
+    projectDiv.appendChild(projectInformation);
 
-      const projectInformation = document.createElement("div");
-      projectInformation.classList.add("project-item-information");
-      projectDiv.appendChild(projectInformation);
+    // Title
+    const title = document.createElement("p");
+    title.classList.add("project-title");
+    title.textContent = project.title;
+    projectInformation.appendChild(title);
 
+    // Type
+    const type = document.createElement("p");
+    type.classList.add("project-type");
+    type.textContent = project.type;
+    projectInformation.appendChild(type);
 
+    // Description
+    const description = document.createElement("p");
+    description.classList.add("project-description");
+    description.textContent = project.description;
+    projectInformation.appendChild(description);
 
-      // Title
-      const title = document.createElement("p");
-      title.classList.add("project-title");
-      title.textContent = project.title;
-      projectInformation.appendChild(title);
+    // Link
+    const link = document.createElement("a");
+    link.classList.add("button");
+    link.href = project.link;
+    link.textContent = "View Full Project";
+    projectDiv.appendChild(link);
 
-      // Type
-      const type = document.createElement("p");
-      type.classList.add("project-type");
-      type.textContent = project.type;
-      projectInformation.appendChild(type);
-
-      // Description
-      const description = document.createElement("p");
-      description.classList.add("project-description");
-      description.textContent = project.description;
-      projectInformation.appendChild(description);
-
-      // Link
-      const link = document.createElement("a");
-      link.classList.add("button");
-      link.href = project.link;
-      link.textContent = "View Full Project";
-      projectDiv.appendChild(link);
-
-      // Append project to main container
-      projectsContainer.appendChild(projectDiv);
-    });
-  }
+    // Append project to main container
+    projectsContainer.appendChild(projectDiv);
+  });
+}
 
 document.addEventListener("DOMContentLoaded", loadAndDisplayProjects);
+
+
+// async function loadAndDisplayProjects() {
+//     try {
+//       const response = await fetch("projects-copy.json");
+//       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+//       const projectsData = await response.json();
+      
+//       generateAbbreviated(projectsData);
+//       generateProjectsHTML(projectsData);
+//     } catch (error) {
+//       console.error("Failed to fetch projects data:", error);
+//     }
+//   }
+
+// function generateAbbreviated(data) {
+//     const projectsContainer = document.getElementById("abbreviated-projects-container");
+
+//     data.forEach((project, index) => {
+//         //project container
+//         const projectDiv = document.createElement("div");
+//         projectDiv.classList.add("project-abbreviated-container");
+
+//         const projectIndex = document.createElement("p");
+//         projectIndex.classList.add("project-index");
+//         projectIndex.textContent = index+1;
+//         projectDiv.appendChild(projectIndex);
+
+//         //information
+//         const projectInformation = document.createElement("a");
+//         projectInformation.classList.add("abbreviated-item");
+//         projectInformation.classList.add("button");
+//         projectInformation.href = project.link;
+//         projectDiv.appendChild(projectInformation);
+
+//         //title
+//         const title = document.createElement("p");
+//         title.classList.add("project-title");
+//         title.textContent = project.title;
+//         projectInformation.appendChild(title);
+
+//         //type
+//         const type = document.createElement("p");
+//         type.classList.add("project-type");
+//         type.textContent = project.type;
+//         projectInformation.appendChild(type);
+        
+//         // Append project to main container
+//         projectsContainer.appendChild(projectDiv);
+        
+//     });
+
+    
+
+// }
+
+// function generateProjectsHTML(data) {
+//     const projectsContainer = document.getElementById("projects-container");
+
+//     data.forEach(project => {
+//       // Create project container
+//       const projectDiv = document.createElement("div");
+//       projectDiv.classList.add("project-item-container");
+
+//       // Images
+//       const imagesDiv = document.createElement("div");
+//       imagesDiv.classList.add("project-item-gallery");
+//       project.images.forEach(image => {
+//         const img = document.createElement("img");
+//         img.classList.add("project-gallery-images");
+//         img.classList.add("modal-trigger");
+//         img.src = image.src;
+//         img.alt = image.alt;
+//         imagesDiv.appendChild(img);
+//       });
+//       projectDiv.appendChild(imagesDiv);
+
+//       //Information
+
+//       const projectInformation = document.createElement("div");
+//       projectInformation.classList.add("project-item-information");
+//       projectDiv.appendChild(projectInformation);
+
+
+
+//       // Title
+//       const title = document.createElement("p");
+//       title.classList.add("project-title");
+//       title.textContent = project.title;
+//       projectInformation.appendChild(title);
+
+//       // Type
+//       const type = document.createElement("p");
+//       type.classList.add("project-type");
+//       type.textContent = project.type;
+//       projectInformation.appendChild(type);
+
+//       // Description
+//       const description = document.createElement("p");
+//       description.classList.add("project-description");
+//       description.textContent = project.description;
+//       projectInformation.appendChild(description);
+
+//       // Link
+//       const link = document.createElement("a");
+//       link.classList.add("button");
+//       link.href = project.link;
+//       link.textContent = "View Full Project";
+//       projectDiv.appendChild(link);
+
+//       // Append project to main container
+//       projectsContainer.appendChild(projectDiv);
+//     });
+//   }
+
+// document.addEventListener("DOMContentLoaded", loadAndDisplayProjects);
