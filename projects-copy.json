@@ -43,6 +43,10 @@
             },
             {
                 "type": "image",
+                "url": "assets/projects/ac-1/oxygen.jpg"
+            },
+            {
+                "type": "image",
                 "url": "assets/projects/ac-1/6.jpg"
             }
         ],
@@ -52,10 +56,20 @@
                 "content": "Resisting any strict traditional classification, AC-1 draws features from a mix of formal styles: the spareness of rational, the simplicity of a geometric, a touches of warmth inspired by humanist forms."
             },
             {
+                "type": "text",
+                "content": "AC-1 offers an unassuming balance of confident, thoughtful sincerity. It is spare without being bleak."
+            },
+            {
                 "type": "image",
-                "url": "assets/projects/ac-1/1.jpg",
-                "alt": "Documentation tablet for AC-1",
-                "caption": "this is a caption"
+                "url": "assets/projects/ac-1/humanisttouches.jpg",
+                "alt": "Select humanist details, AC-1",
+                "caption": "AC-1 resists any rigid categorization, hybridizing features from multiple traditional type classifications. On one hand, touches of traditionally humanist features add an approachability that is critical of modernist sterility. On the other, its decided dedication to clarity opposes the excess and irony associated with postmodern styles."
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/ac-1/oxygen.jpg",
+                "alt": "AC-1 demonstraction",
+                "caption": "AC-1 being used "
             },
             {
                 "type": "text",
@@ -101,8 +115,13 @@
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "url": "assets/projects/sfpc/2.jpg",
                 "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/postcards.jpg",
+                "alt": "Documentation tablet for AC-1"
             },
             {
                 "type": "image",
@@ -111,35 +130,49 @@
             },
             {
                 "type": "image",
+                "url": "assets/projects/sfpc/tickets.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
                 "url": "assets/projects/sfpc/letterhead.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/businesscards.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads1.jpg",
+                "alt": "Documentation tablet for AC-1"
+            },
+            {
+                "type": "image",
+                "url": "assets/projects/sfpc/ballads2.jpg",
                 "alt": "ASCII postcards"
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "url": "assets/projects/sfpc/ballads3.jpg",
                 "alt": "Back of CD case for hypothetical music project, Ballads"
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "url": "assets/projects/sfpc/AA1.jpg",
                 "alt": "Back of CD case for hypothetical music project, Ballads"
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "url": "assets/projects/sfpc/AA2.jpg",
                 "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/sfpc/tickets.jpg",
-                "alt": "Documentation tablet for AC-1"
             }
-
         ],
         "story": [
             {
