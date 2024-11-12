@@ -89,8 +89,8 @@
     },
     "sfpc-identity": {
         "title": "School for Poetic Computation",
-        "type": "Identity",
-        "description": "Giving form to alternative frameworks of computer programming with an identity that is itself a practice of subversive code.",
+        "type": "Visual Identity",
+        "description": "Giving form to alternative frameworks of computer programming with a visual identity that is itself a practice of subversive code.",
         "link": "case-study.html?project=sfpc-identity",
         "heroMedia": [
             {
@@ -150,6 +150,11 @@
             },
             {
                 "type": "image",
+                "url": "assets/projects/sfpc/ballads-cd-front.jpg",
+                "alt": "Back of CD case for hypothetical music project, Ballads"
+            },
+            {
+                "type": "image",
                 "url": "assets/projects/sfpc/ballads1.jpg",
                 "alt": "Documentation tablet for AC-1"
             },
@@ -177,44 +182,47 @@
         "story": [
             {
                 "type": "text",
-                "content": "A visual identity concept for the School for Poetic Computation, an artist run school in New York that focuses on the intersection of art, code, hardware, and critical theory. By recontextualizing forms of code, the visual identity itself becomes a practice of poetic computation."
+                "content": "A visual identity concept for the School for Poetic Computation (SFPC), an artist run school in New York that focuses on the intersection of art, code, hardware, and critical theory. SFPC revolves around the idea of 'poetic computation:' an alternative approach to programming that challenges the activity's traditional functions, uses, values, and assumptions. In doing this, poetic computation becomes a kind of cultural activism, recontextualizing code through critical use and misuse."
             },
             {
-                "type": "video",
-                "url": "assets/projects/sfpc/Aldon_Chen_Final.mp4",
-                "poster": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "caption": "Introduction to AutoSpell, a generative typography system that synthesizes typography and cellular automata."
+                "type": "text",
+                "content": "My visual identity concept aimed to give form to 'poetic computation' which I discovered could only be represented authentically through a visual identity that is, itself, a gesture of subversive programming."
             },
             {
                 "type": "image",
                 "url": "assets/projects/sfpc/postcards.jpg",
                 "alt": "ASCII postcards",
-                "caption": "Text-based code paradigms get reinterpreted as ASCII art."
+                "caption": "The project began with one of, if not the, most ubiquitous forms of code: text. I appropriated text-based code in order to create ASCII art."
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
+                "url": "assets/projects/sfpc/2.jpg",
+                "alt": "ASCII postcards",
+                "caption": "Hand-drawn ASCII art became one form of the visual identity."
             },
             {
                 "type": "image",
-                "url": "assets/projects/ac-1/1.jpg",
-                "alt": "Documentation tablet for AC-1"
+                "url": "assets/projects/sfpc/ballads-cd-front.jpg",
+                "alt": "ASCII postcards",
+                "caption": "This strategy of appropriation was translated into other forms of code, such as early programmable music technology."
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/postcards.jpg",
-                "alt": "ASCII postcards"
+                "url": "assets/projects/sfpc/ballads1.jpg",
+                "alt": "ASCII postcards",
+                "caption": "Appropriating early programmed music into posters."
+            },
+            {
+                "type": "video",
+                "url": "assets/projects/sfpc/Aldon_Chen_Final.mp4",
+                "poster": "assets/projects/sfpc/ballads-cd-back.jpg",
+                "caption": "The project also explored code in the form of abstract models, such as cellular automata. Using Processing, I programmed AutoSpell, a generative typography system that synthesizes typography and the Game of Life, a type of cellular automata."
             },
             {
                 "type": "image",
-                "url": "assets/projects/sfpc/ballads-cd-back.jpg",
-                "alt": "Back of CD case for hypothetical music project, Ballads"
-            },
-            {
-                "type": "image",
-                "url": "assets/projects/ac-1/1.jpg",
-                "alt": "Documentation tablet for AC-1"
+                "url": "assets/projects/sfpc/AA1.jpg",
+                "alt": "ASCII postcards",
+                "caption": "AutoSpell was used to capture a moment of typography and imagery interacting with a live cellular automata simulation."
             }
 
         ]
