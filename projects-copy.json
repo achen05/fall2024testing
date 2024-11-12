@@ -182,11 +182,7 @@
         "story": [
             {
                 "type": "text",
-                "content": "A visual identity concept for the School for Poetic Computation (SFPC), an artist run school in New York that focuses on the intersection of art, code, hardware, and critical theory. SFPC revolves around the idea of 'poetic computation:' an alternative approach to programming that challenges the activity's traditional functions, uses, values, and assumptions. In doing this, poetic computation becomes a kind of cultural activism, recontextualizing code through critical use and misuse."
-            },
-            {
-                "type": "text",
-                "content": "My visual identity concept aimed to give form to 'poetic computation' which I discovered could only be represented authentically through a visual identity that is, itself, a gesture of subversive programming."
+                "content": "A visual identity concept for the School for Poetic Computation (SFPC), an artist run school in New York that focuses on the intersection of art, code, hardware, and critical theory. SFPC revolves around the idea of 'poetic computation:' an alternative approach to programming that challenges the activity's traditional functions, uses, values, and assumptions. In doing this, poetic computation becomes a kind of cultural activism, recontextualizing code through critical use and misuse. <br><br> My visual identity concept aimed to give form to 'poetic computation' which I discovered could only be represented authentically through a visual identity that is, itself, a gesture of subversive programming."
             },
             {
                 "type": "image",
